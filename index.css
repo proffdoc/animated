@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.container .box {
+  display: flex;
+  height: 100vh;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.fa-brands {
+  font-size: 5rem;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  border: 1px solid;
+  padding: 50px 30px;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10%;
+}
